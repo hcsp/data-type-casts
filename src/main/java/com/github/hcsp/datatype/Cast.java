@@ -16,7 +16,7 @@ public class Cast {
     // Cast an int to char
     // 将int类型转换成char
     public static char int2char(int i) {
-        return (char) i;
+        return (char)i;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
@@ -40,12 +40,14 @@ public class Cast {
     // Cast an Long to int
     // 将Long类型转换成int
     public static int Long2int(Long l) {
-        return int(l);
+        return l.intValue();
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        return Long.parseLong(d + "");
+        return d.longValue();
     }
+
+
 }
