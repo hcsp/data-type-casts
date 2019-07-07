@@ -40,7 +40,7 @@ public class Cast {
     // Cast an Long to int
     // 将Long类型转换成int
     public static int Long2int(Long l) {
-        return int(l);
+        return l.intValue();
     }
 
     // Cast an Double to long
