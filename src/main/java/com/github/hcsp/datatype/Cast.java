@@ -31,29 +31,29 @@ public class Cast {
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String s) {
         s="123";
-        int a=string2int(s);
-        return a;
+        int b=Integer.parseInt(s);
+        return b;
     }
 
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
     public static double string2double(String s) {
         s="1.23";
-        double a=string2double(s);
+        double a=Double.valueOf(s);
         return a;
     }
 
     // Cast an Long to int
     // 将Long类型转换成int
     public static int Long2int(Long l) {
-        int a=Long2int(l);
+        int a=l.intValue();
         return a;
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        long a=double2Long(d);
+        long a=Double.doubleToRawLongBits(d);
         return a;
     }
 }
