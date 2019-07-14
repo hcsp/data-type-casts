@@ -36,7 +36,7 @@ public class Cast {
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
     public static double string2double(String s) {
-        double a=Double.valueOf(s);
+        double a=s.hashCode();
         return a;
     }
 
@@ -50,7 +50,6 @@ public class Cast {
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        long a=Double.doubleToRawLongBits(d);
-        return a;
+        return d.longValue();
     }
 }
