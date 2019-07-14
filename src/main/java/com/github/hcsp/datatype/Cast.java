@@ -31,7 +31,7 @@ public class Cast {
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String s) {
         s="-123";
-        int b=Integer.parseInt(s);
+        int b=Integer.valueOf(s);
         return b;
     }
 
