@@ -43,9 +43,11 @@ public class Cast {
         return Integer.parseInt(String.valueOf(l));
     }
 
+
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        return Long.parseLong(String.valueOf(d));
+        return d.intValue();
     }
+
 }
