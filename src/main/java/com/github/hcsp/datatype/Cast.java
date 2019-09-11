@@ -4,48 +4,56 @@ public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
     public static byte int2byte(int i) {
-        return i;
+        byte x=(byte)i;
+        return x;
     }
 
     // Cast an int to short
     // 将int类型转换成short
     public static short int2short(int i) {
-        return i;
+        short x=(short)i;
+        return x;
     }
 
     // Cast an int to char
     // 将int类型转换成char
     public static char int2char(int i) {
-        return i;
+        char x = (char)i;
+        return x;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
     // 将一个整数转换为字符串，例如，将123转换成字符串"123"
     public static String int2String(int i) {
-        return i;
+        String x= ""+i;
+        return x;
     }
 
     // Cast an String to int, e.g. "123" -> 123
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String s) {
-        return s;
+        int x= Integer.parseInt(s);
+        return x;
     }
 
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
     public static double string2double(String s) {
-        return s;
+        double x= Double.valueOf(s);
+        return x;
     }
 
     // Cast an Long to int
     // 将Long类型转换成int
-    public static int Long2int(Long l) {
-        return l;
+    public static Long Long2int(Long l) {
+        int x= l.intValue();//这是一个Long类型，属于包装类型，代表一个地址，无法赋值？
+        return Long.valueOf(x);
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        return d;
+        long x = d.longValue();
+        return x;
     }
 }
