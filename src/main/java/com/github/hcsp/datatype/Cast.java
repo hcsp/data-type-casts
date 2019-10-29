@@ -1,8 +1,5 @@
 package com.github.hcsp.datatype;
 
-import org.jcp.xml.dsig.internal.dom.DOMUtils;
-
-import java.util.function.LongToIntFunction;
 
 public class Cast {
     // Cast an int to byte
