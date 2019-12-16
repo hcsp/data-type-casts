@@ -1,8 +1,5 @@
 package com.github.hcsp.datatype;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import jdk.nashorn.internal.parser.JSONParser;
-
 public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
