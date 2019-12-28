@@ -22,30 +22,30 @@ public class Cast {
     // Cast an int to String, e.g. 123 -> "123"
     // 将一个整数转换为字符串，例如，将123转换成字符串"123"
     public static String int2String(int i) {
-        return (String) i;
+        return String.valueOf(i);
     }
 
     // Cast an String to int, e.g. "123" -> 123
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String s) {
-        return (int)s;
+        return Integer.parseInt(s);
     }
 
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
     public static double string2double(String s) {
-        return (double)s;
+        return Double.parseDouble(s);
     }
 
     // Cast an Long to int
     // 将Long类型转换成int
     public static int Long2int(Long l) {
-        return (int)l;
+        return l.intValue();
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        return (long)d;
+        return d.intValue();
     }
 }
