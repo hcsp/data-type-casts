@@ -22,7 +22,7 @@ public class Cast {
     // Cast an int to String, e.g. 123 -> "123"
     // 将一个整数转换为字符串，例如，将123转换成字符串"123"
     public static String int2String(int i) {
-        return String.valueOf(i);
+        return i+"";
     }
 
     // Cast an String to int, e.g. "123" -> 123
@@ -40,13 +40,12 @@ public class Cast {
     // Cast an Long to int
     // 将Long类型转换成int
     public static int Long2int(Long l) {
-        return Math.toIntExact(l);
+        return l.intValue();
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        Long l = Long.parseLong(String.valueOf(d))  ;
-        return l;
+        return d.longValue();
     }
 }
