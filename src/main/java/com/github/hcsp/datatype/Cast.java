@@ -3,7 +3,9 @@ package com.github.hcsp.datatype;
 public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
-    public static byte int2byte(int i) { return (byte) i; }
+    public static byte int2byte(int i) {
+        return (byte) i;
+    }
 
     // Cast an int to short
     // 将int类型转换成short
@@ -20,7 +22,7 @@ public class Cast {
     // Cast an int to String, e.g. 123 -> "123"
     // 将一个整数转换为字符串，例如，将123转换成字符串"123"
     public static String int2String(int i) {
-        return "i";
+        return String.valueOf(i);
     }
 
     // Cast an String to int, e.g. "123" -> 123
