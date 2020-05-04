@@ -16,7 +16,7 @@ public class Cast {
     // Cast an int to char
     // 将int类型转换成char
     public static char int2char(int i) {
-        return Character.forDigit(i, 10);
+        return (char)i;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
