@@ -5,14 +5,14 @@ public class Cast {
     // 将int类型转换成byte
     public static byte int2byte(int i) {
 
-        return (byte)1;
+        return (byte) 1;
     }
 
     // Cast an int to short
     // 将int类型转换成short
     public static short int2short(int i) {
 
-        return (short)i;
+        return (short) i;
     }
 
     // Cast an int to char
