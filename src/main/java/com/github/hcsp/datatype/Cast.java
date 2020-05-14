@@ -33,13 +33,14 @@ public class Cast {
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String i) {
 
-        return Integer.valueOf(i);
+        return Integer.parseInt(i);
     }
 
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
-    public static double string2double(double s) {
-        return 1.23;
+    public static double string2double(String s) {
+
+        return Double.parseDouble(s);
     }
 
     // Cast an Long to int
