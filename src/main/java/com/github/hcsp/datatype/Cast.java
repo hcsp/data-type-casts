@@ -5,7 +5,7 @@ public class Cast {
     // 将int类型转换成byte
     public static byte int2byte(int i) {
 
-        return (byte) 1;
+        return (byte) i;
     }
 
     // Cast an int to short
