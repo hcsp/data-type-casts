@@ -1,6 +1,18 @@
 package com.github.hcsp.datatype;
 
 public class Cast {
+
+    public static void main(String[] args) {
+        System.out.println(int2byte(111));
+        System.out.println(int2short(1111111));
+        System.out.println(int2char(10));
+        System.out.println(int2String(1111));
+        System.out.println(string2int("123"));
+        System.out.println(string2double("123123"));
+        System.out.println(Long2int(22222222L));
+        System.out.println(double2Long(1521.11));
+
+    }
     // Cast an int to byte
     // 将int类型转换成byte
     public static byte int2byte(int i) {
@@ -28,7 +40,8 @@ public class Cast {
     // Cast an String to int, e.g. "123" -> 123
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String s) {
-        return Integer.getInteger(s);
+
+        return Integer.valueOf(s);
     }
 
     // Cast an String to double, e.g. "1.23" -> 1.23
