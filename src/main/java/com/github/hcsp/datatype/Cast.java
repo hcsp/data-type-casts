@@ -34,7 +34,7 @@ public class Cast {
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
     public static double string2double(String s) {
-        return Integer.parseInt(s)*1.0 ;
+        return Double.parseDouble(s);
     }
 
     // Cast an Long to int
