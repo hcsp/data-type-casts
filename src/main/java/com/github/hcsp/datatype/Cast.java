@@ -1,7 +1,5 @@
 package com.github.hcsp.datatype;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
