@@ -4,13 +4,13 @@ public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
     public static byte int2byte(int i) {
-        return (byte)i;
+        return (byte) i;
     }
 
     // Cast an int to short
     // 将int类型转换成short
     public static short int2short(int i) {
-        return (short)i;
+        return (short) i;
     }
 
     // Cast an int to char
@@ -41,13 +41,13 @@ public class Cast {
     // 将Long类型转换成int
     public static int Long2int(Long l) {
         long temp = l;
-        return (int)temp;
+        return (int) temp;
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
         double temp = d;
-        return (long)temp;
+        return (long) temp;
     }
 }
