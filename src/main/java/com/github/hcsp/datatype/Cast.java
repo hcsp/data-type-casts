@@ -15,13 +15,13 @@ public class Cast {
     // Cast an int to char
     // 将int类型转换成char
     public static char int2char(int i) {
-        return (char)i;
+        return (char) i;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
     // 将一个整数转换为字符串，例如，将123转换成字符串"123"
     public static String int2String(int i) {
-        return Integer.toString(i);
+        return Integer.toString (i);
     }
 
     // Cast an String to int, e.g. "123" -> 123
