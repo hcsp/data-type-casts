@@ -10,13 +10,11 @@ public class Cast {
     // Cast an int to short
     // 将int类型转换成short
     public static short int2short(int i) {
-        i = (short)i;
         return (short) i;
     }
     // Cast an int to char
     // 将int类型转换成char
     public static char int2char(int i) {
-        i = (char)i;
         return (char)i;
     }
 
@@ -35,7 +33,6 @@ public class Cast {
     // Cast an String to double, e.g. "1.23" -> 1.23
     // 将一个字符串转换成double类型，例如，将字符串"1.23"转换成1.23
     public static double string2double(String s) {
-
         return Double.parseDouble(s);
     }
 
