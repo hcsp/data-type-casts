@@ -28,7 +28,7 @@ public class Cast {
     // Cast an String to int, e.g. "123" -> 123
     // 将一个字符串转换成整数，例如，将字符串"123"转换成整数123
     public static int string2int(String s) {
-        return (int)(Long.parseLong(s));
+        return Integer.parseInt(s);
     }
 
     // Cast an String to double, e.g. "1.23" -> 1.23
@@ -46,6 +46,6 @@ public class Cast {
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        return Long.parseLong(""+d);
+        return (long)(double)(d);
     }
 }
