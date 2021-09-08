@@ -48,4 +48,8 @@ public class Cast {
     public static long double2Long(Double d) {
         return d.longValue();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
