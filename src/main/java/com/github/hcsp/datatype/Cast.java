@@ -10,13 +10,13 @@ public class Cast {
     // Cast an int to short
     // 将int类型转换成short
     public static short int2short(int i) {
-        return (short)i;
+        return (short) i;
     }
 
     // Cast an int to char
     // 将int类型转换成char
     public static char int2char(int i) {
-        return (char)i;
+        return (char) i;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
