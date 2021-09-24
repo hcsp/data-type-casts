@@ -40,14 +40,14 @@ public class Cast {
     // Cast an Long to int
     // 将Long类型转换成int
     public static int Long2int(Long l) {
-        long z = l;
-        return (int) z;
+        long bb = l;
+        return (int) bb;
     }
 
     // Cast an Double to long
     // 将Double类型转换成long
     public static long double2Long(Double d) {
-        double m = d;
-        return (long) m;
+        double aa = d;
+        return (long) aa;
     }
 }
