@@ -9,7 +9,7 @@ public class Cast {
 
     // Cast an int to short
     // 将int类型转换成short
-    public static short int2short( int i) {
+    public static short int2short(int i) {
         return (short) i;
     }
 
