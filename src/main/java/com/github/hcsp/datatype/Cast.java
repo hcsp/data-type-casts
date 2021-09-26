@@ -22,7 +22,7 @@ public class Cast {
     // Cast an int to String, e.g. 123 -> "123"
     // 将一个整数转换为字符串，例如，将123转换成字符串"123"
     public static String int2String(int i) {
-        return (String) "i";
+        return String.valueOf(i);
     }
 
     // Cast an String to int, e.g. "123" -> 123
