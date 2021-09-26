@@ -1,7 +1,5 @@
 package com.github.hcsp.datatype;
 
-import sun.security.util.math.intpoly.IntegerPolynomial;
-
 public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
