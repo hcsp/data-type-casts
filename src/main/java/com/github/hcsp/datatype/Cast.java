@@ -4,7 +4,7 @@ public class Cast {
     // Cast an int to byte
     // 将int类型转换成byte
     public static byte int2byte(int i) {
-        byte b = (byte)i;
+        byte b = (byte) i;
         return b;
     }
 
